@@ -1,4 +1,4 @@
-# Project TIP-on! React Boilerplate
+# Project TIP!
 ## What's mean TIP?
 > Travel + Infomation + Plan on  
 > Every element of the trip's tip just for you.
