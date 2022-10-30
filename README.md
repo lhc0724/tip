@@ -1,6 +1,6 @@
 # Project TIP!
 ## What's mean TIP?
-> Travel + Infomation + Plan on  
+> Travel Infomation Project
 > Every element of the trip's tip just for you.
 
 ##### 시작하기
