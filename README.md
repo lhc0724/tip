@@ -1,46 +1,41 @@
-# Getting Started with Create React App
+# Project TIP-on! React Boilerplate
+## What's mean TIP?
+> Travel + Infomation + Plan on  
+> Every element of the trip's tip just for you.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+##### 시작하기
+```
+npm install
+npm start
+```
 
-## Available Scripts
+##### 환경변수 설정
+```
+.env.development, .env.test, .env.production
 
-In the project directory, you can run:
+# API Url 설정 (.env 파일)
+REACT_APP_API_URL = "API URL"
 
-### `npm start`
+# 변수 추가시 
+REACT_APP_변수 이름
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+##### Code Splitting
+React lazy 활용
+```
+> app-routes.js
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+예제)
+const Component = lazy(() => import('./domain/example/Component'));
+```
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+##### 적용된 모듈 및 라이브러리
+- [Progressive Web App (PWA)](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps)
+- [Code Splitting](https://reactjs.org/docs/code-splitting.html)
+- [ESLint](https://eslint.org/)
+- [React](https://reactjs.org/)
+- [Redux Toolkit (RTK)](https://redux-toolkit.js.org/)
+- [Axios](https://github.com/axios/axios)
+- [Styled components](https://github.com/styled-components/styled-components)
+- [React Intl](https://github.com/formatjs/formatjs)
